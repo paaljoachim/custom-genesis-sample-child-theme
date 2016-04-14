@@ -1,0 +1,321 @@
+/* Home page adjustments */
+
+body.home {
+	background: #000;
+}
+
+
+/* Caldera Forms */
+
+.caldera-grid {
+	font-family: sans-serif, trebuchet ms, times;
+}
+
+.form-control {
+	font-size: 18px !important;
+}
+
+/* Columns */
+
+/* 1 */
+.one-half.first {
+   
+    margin-left: 0;
+    width: 25% !important;   
+}
+
+.one-half .current-menu-item a {
+	color: #f99b1c;
+}
+
+.one-half.first a:hover {
+	color: #f99b1c;
+	
+	border-radius: 4px;
+	padding: 2px;
+	text-decoration: none;
+}
+
+/* 2 */
+.one-half, .three-sixths, .two-fourths {
+    width: 72% !important;
+}
+
+
+/* Accordion Styles - https://wordpress.org/plugins/accordion-shortcodes/ */
+
+.accordion {
+    border-bottom: none;
+   /*  margin-bottom: 20px; */
+}
+.accordion-title {
+    border-top: 1px solid white !important; /* Adjusted #dbdbdb */
+    margin: 0;
+   /*  padding: 20px 0;
+    cursor: pointer; */
+}
+
+.accordion-title:hover {
+    border-top: none;
+}
+
+.accordion-title:first-child {
+}
+
+.accordion-title.open {
+   /*  cursor: default; */
+}
+
+.accordion-content {
+  padding: 20px 22px 25px 2px !important;
+  border-top: 0px !important;
+  overflow: scroll;
+  height: 590px;
+  border: 1px solid white;
+}
+
+/* Removes add a comment link in meta area of each post of the blog post page  */
+.entry-comments-link {
+  display: none;
+}
+
+/* Removes filed under meta */
+.entry-categories {
+  display: none;
+}
+
+.page-id-12 .site-footer {
+height: 100px;
+}
+
+/* ## Search Form
+--------------------------------------------- */
+
+.search-form {
+	overflow: hidden;
+}
+
+.site-header .search-form {
+	float: right;
+	margin-top: 12px;
+	border-radius: 9px;
+}
+
+.entry-content .search-form,
+.site-header .search-form {
+	width: 50%;
+}
+
+.genesis-nav-menu .search input[type="submit"],
+.widget_search input[type="submit"] {
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+
+/* To clear search input field's text when the search field gets focus */
+
+input[type="search"]:focus::-webkit-input-placeholder { color:transparent; }
+input[type="search"]:focus:-moz-placeholder { color:transparent; } /* Firefox 18- */
+input[type="search"]:focus::-moz-placeholder { color:transparent; } /* Firefox 19+ */
+input[type="search"]:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
+
+/* Input colors */
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #3498db;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #3498db;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #3498db;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #3498db;
+}
+
+
+/*
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+/* Desktops, laptops and iPads (landscape)
+--------------------------------------------- 
+
+@media only screen and (max-width: 1139px) {
+
+	.wrap {
+		max-width: 960px;
+	}
+
+	.content-sidebar-sidebar .content-sidebar-wrap,
+	.sidebar-content-sidebar .content-sidebar-wrap,
+	.sidebar-sidebar-content .content-sidebar-wrap {
+		width: 740px;
+	}
+	
+	.content,
+	.site-header .widget-area {
+		width: 620px;
+	}
+
+	.sidebar-content-sidebar .content,
+	.sidebar-sidebar-content .content,
+	.content-sidebar-sidebar .content {
+		width: 400px;
+	}
+
+	.home-middle-1,
+	.home-middle-2,
+	.home-middle-3,
+	.footer-widgets-1,
+	.footer-widgets-2,
+	.footer-widgets-3,
+	.sidebar-primary,
+	.title-area {
+		width: 300px;
+	}
+
+}
+
+/* iPads (portrait)
+--------------------------------------------- 
+
+@media only screen and (max-width: 1023px) {
+
+	.content,
+	.content-sidebar-sidebar .content,
+	.content-sidebar-sidebar .content-sidebar-wrap,
+	.footer-widgets-1,
+	.footer-widgets-2,
+	.footer-widgets-3,
+	.home-middle-1,
+	.home-middle-2,
+	.home-middle-3,
+	.sidebar-content-sidebar #content,
+	.sidebar-content-sidebar .content,
+	.sidebar-content-sidebar .content-sidebar-wrap,
+	.sidebar-primary,
+	.sidebar-secondary,
+	.sidebar-sidebar-content #content,
+	.sidebar-sidebar-content .content,
+	.sidebar-sidebar-content .content-sidebar-wrap,
+	.site-header .widget-area,
+	.title-area,
+	.wrap {
+		width: 100%;
+	}
+
+	.site-inner {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.archive-description,
+	.author-box,
+	.entry,
+	.entry-footer .entry-meta,
+	.sidebar .widget,
+	.site-header,
+	#comments,
+	#respond {
+		padding: 0;
+	}
+
+	.site-inner {
+		background: none;
+	}
+
+	.genesis-nav-menu li,
+	.site-header ul.genesis-nav-menu,
+	.site-header .search-form {
+		float: none;
+	}
+
+	.genesis-nav-menu,
+	.site-description,
+	.site-header hgroup,
+	.site-header .search-form,
+	.site-description,
+	.site-title {
+		text-align: center;
+	}
+
+	.genesis-nav-menu a,
+	.genesis-nav-menu > .first > a,
+	.genesis-nav-menu > .last > a {
+		padding: 20px 16px;
+		padding: 2rem 1.6rem;
+	}
+
+	.site-header .search-form {
+		margin: 16px auto ;
+		margin: 1.6rem auto;
+	}
+
+	.genesis-nav-menu li.right {
+		display: none;
+	}
+
+	.entry-footer .entry-meta {
+		margin: 0;
+		padding-top: 12px;
+		padding-top: 1.2rem;
+	}
+
+	.sidebar .widget.enews-widget {
+		padding: 40px;
+		padding: 4rem;
+	}
+
+	.site-footer {
+		padding: 24px 0;
+		padding: 2.4rem 0;
+	}
+
+	.footer-widgets,
+	#home-middle,
+	#home-featured,
+	#home-bottom  {
+		padding: 40px 5% 16px;
+	}
+
+	.footer-widgets-1,
+	.home-middle-1 {
+		margin: 0;
+	}
+
+}
+
+/* iPhones (portrait and landscape)
+--------------------------------------------- 
+
+@media only screen and (max-width: 767px) {
+
+	.five-sixths,
+	.four-fifths,
+	.four-sixths,
+	.one-fifth,
+	.one-fourth,
+	.one-half,
+	.one-sixth,
+	.one-third,
+	.three-fifths,
+	.three-fourths,
+	.three-sixths,
+	.two-fifths,
+	.two-fourths,
+	.two-sixths,
+	.two-thirds {
+		margin: 0;
+		width: 100%;
+	}
+
+}
