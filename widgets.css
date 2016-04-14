@@ -1,0 +1,537 @@
+/*---------------- WIDGETS ------------------*/
+
+
+.home .sidebar-primary {
+	float: right;
+	width: 320px;
+	
+	/* Added */
+	margin-top: 60px;
+	
+    font-weight: 500;
+    border: 0 !important;
+}
+
+
+body.home {
+	background-color: #fff; /* #efeeda */
+}
+
+
+
+
+.home-featured-full h3{
+	color: #895400;
+	text-align: center;
+	margin: -7px 0 7px 0;
+	text-shadow: 0px 0px 0px #000;
+}
+
+.widget_black_studio_tinymce {
+	float: left;
+	padding: 10px;
+	background-color: #fff;
+	color: #000;
+	font-family: copperplate, sans-serif;
+}
+
+/* Hide widget titles frontend - I use the titles to create clarity inside the widgets area */
+.widget_black_studio_tinymce .widget-title {
+	display: none;
+}
+
+.widget_black_studio_tinymce a,
+.widget_black_studio_tinymce h2 {
+	text-decoration: none;
+	color: #000;	
+	text-decoration: none;
+}
+
+
+/* Viser Awake */
+#black-studio-tinymce-12
+ {
+	height: 230px;	
+	margin: 5px 1px 5px 1px;
+	width: 230px;
+}
+
+#black-studio-tinymce-13,
+#black-studio-tinymce-14 {
+	height: 150px;
+	padding: 0 5px 0 15px;
+	width: 200px;
+	margin: 1px;
+}
+
+
+#black-studio-tinymce-12 a:hover,
+#black-studio-tinymce-13 a:hover,
+#black-studio-tinymce-14 a:hover {
+  color: #000;	
+  text-decoration: underline;	
+}
+
+
+
+/* ------ Header sections ----- */
+
+
+.preheader-container {
+	background: #eaf6dd;
+	box-shadow: 0px 3px -5px #000;
+	border: 2px solid #ccc;
+}
+
+
+.preheader-right {
+	text-align: right;
+	float: right;
+	padding-right: 4px;
+	margin: 3px 10px 0 0;
+	border: 1px solid #ccc;
+	min-width: 180px;
+	max-width: 40%;
+}
+
+.preheader-left {
+	text-align: left;
+	float: left;
+	padding-left: 4px;
+	margin: 3px 0 0 10px;
+	border: 1px solid #ccc;
+	min-width: 180px;
+	max-width: 40%;
+}
+
+.header-widget-area {
+	max-width: 80%;
+}
+
+.site-header .widget-area {
+	float: left;
+	text-align: left;
+	width: 75%;
+}
+
+
+
+/* ----- Home Widgets ------ */
+
+.home-featured-full {
+	padding: 0;
+	width: 100%;
+	margin: 3px 0 -15px 0;
+}
+
+#home-featured-halves {
+	padding: 5px;
+}
+
+.home-featured-left {
+	padding: 1px;
+	width: 20%;		/* Adjusted 50% */
+	margin-top: 6px;
+	
+	border: 1px solid #333;
+	box-shadow: 0px 3px 5px #444;
+}
+
+.home-featured-right {
+	padding: 5px;
+	float: right;
+	width: 80%;
+}
+
+
+
+#home-middle,
+#home-featured,
+.home-bottom {
+	clear: both;
+	padding: 10px 0 5px;		/* Adjusted 20px 016px */
+	padding: 1.2rem 0 0.2rem;  /* Adjusted 1.25rem 0 1.6rem */
+}
+
+
+#home-middle {
+}
+
+
+.home-middle-1,
+.home-middle-3 {
+	width: 350px;
+}
+
+.home-middle-2 {
+	width: 360px;
+}
+
+.home-middle-1 {
+	margin-right: 40px;
+}
+
+.home-middle-1,
+.home-middle-2 {
+	float: left;
+}
+
+.home-middle-3 {
+	float: right;
+}
+
+#home-middle a {
+	color: #999;
+}
+
+#home-middle a:hover {
+	color: #ccc;
+}
+
+#home-middle .widget {
+	margin-bottom: 24px;
+	margin-bottom: 2.4rem;
+}
+
+#home-middle .widgettitle {
+	color: #999;
+}
+
+#home-middle li {
+	list-style-type: none;
+	margin-bottom: 6px;
+	margin-bottom: 0.6rem;
+	word-wrap: break-word;
+}
+
+#home-middle .search-form {
+	width: 100%;
+}
+
+#home-bottom {
+	background-color: #6c0101;
+}
+
+
+/* ----- Before entry - single post widget ----*/
+
+.before-entry {
+   /* background: url(assets/img/lines.png); */
+   border-radius: 10px;
+   background-size: 8px 8px;
+   margin-top: 5px;
+}
+
+.before-entry .wrap {
+   background-color: #fff;
+   padding: 32px;
+   border: 1px solid #333;
+}
+
+.before-entry p {
+   margin-bottom: 20px;
+}
+
+before-entry .widget-title,
+.archive-title,
+.comments-title,
+.widget .entry-title {
+   font-size: 20px;
+}
+
+
+/* ----- After entry - single post widget ----*/
+
+.after-entry {
+   /* background: url(assets/img/lines.png); */
+   border-radius: 10px;
+   border: 1px solid #ccc;
+   background-size: 8px 8px;
+   margin-top: 5px;
+}
+
+.after-entry .wrap {
+   background-color: #fff;
+   padding: 32px;
+}
+
+.after-entry p {
+   margin-bottom: 20px;
+}
+
+after-entry .widget-title,
+.archive-title,
+.comments-title,
+.widget .entry-title {
+   font-size: 20px;
+}
+
+
+/* ------ Footer Widgets --------- */
+
+
+/* Added as an extra area right above the footer. */
+.footer-header {
+   background-color: green;
+   clear: both;
+   font-size: 16px;
+   margin: 25px auto;
+   max-width: 1140px;
+   /* padding: 36px 36px 0; */
+   border: 3px solid #DDD;
+   border-radius: 6px; 
+   box-shadow: 0px 1px 10px -4px #000, 0px 0px 40px #EEEEEE;
+   box-shadow: 0px 3px 5px #444; 
+   width: 100%;
+   padding: 15px;
+}
+
+/* Inner Footer Header area */
+.footer-header .wrap {
+   padding: 8px;
+   background: #f1f1f1;
+}
+
+.footer-header .widget-title {
+	text-align: center;
+	font-size: 30px;
+	margin: 20px auto;
+}
+
+
+.footer-widgets {
+	color: #999;
+	clear: both;
+	font-size: 14px;
+	font-size: 1.4rem;
+	padding: 20px 0 16px;
+	padding: 2rem 0 1.6rem;
+}
+
+.footer-widgets-1,
+.footer-widgets-3 {
+	width: 350px;
+}
+
+.footer-widgets-2 {
+	width: 360px;
+}
+
+.footer-widgets-1 {
+	margin-right: 40px;
+}
+
+.footer-widgets-1,
+.footer-widgets-2 {
+	float: left;
+}
+
+.footer-widgets-3 {
+	float: right;
+}
+
+.footer-widgets a {
+	color: #999;
+}
+
+.footer-widgets a:hover {
+	color: #ccc;
+}
+
+.footer-widgets .widget {
+	margin-bottom: 24px;
+	margin-bottom: 2.4rem;
+}
+
+.footer-widgets .widgettitle {
+	color: #999;
+}
+
+.footer-widgets li {
+	list-style-type: none;
+	margin-bottom: 6px;
+	margin-bottom: 0.6rem;
+	word-wrap: break-word;
+}
+
+.footer-widgets .search-form {
+	width: 100%;
+}
+
+/*
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+/* Desktops, laptops and iPads (landscape)
+--------------------------------------------- 
+
+@media only screen and (max-width: 1139px) {
+
+	.wrap {
+		max-width: 960px;
+	}
+
+	.content-sidebar-sidebar .content-sidebar-wrap,
+	.sidebar-content-sidebar .content-sidebar-wrap,
+	.sidebar-sidebar-content .content-sidebar-wrap {
+		width: 740px;
+	}
+	
+	.content,
+	.site-header .widget-area {
+		width: 620px;
+	}
+
+	.sidebar-content-sidebar .content,
+	.sidebar-sidebar-content .content,
+	.content-sidebar-sidebar .content {
+		width: 400px;
+	}
+
+	.home-middle-1,
+	.home-middle-2,
+	.home-middle-3,
+	.footer-widgets-1,
+	.footer-widgets-2,
+	.footer-widgets-3,
+	.sidebar-primary,
+	.title-area {
+		width: 300px;
+	}
+
+}
+
+/* iPads (portrait)
+--------------------------------------------- 
+
+@media only screen and (max-width: 1023px) {
+
+	.content,
+	.content-sidebar-sidebar .content,
+	.content-sidebar-sidebar .content-sidebar-wrap,
+	.footer-widgets-1,
+	.footer-widgets-2,
+	.footer-widgets-3,
+	.home-middle-1,
+	.home-middle-2,
+	.home-middle-3,
+	.sidebar-content-sidebar #content,
+	.sidebar-content-sidebar .content,
+	.sidebar-content-sidebar .content-sidebar-wrap,
+	.sidebar-primary,
+	.sidebar-secondary,
+	.sidebar-sidebar-content #content,
+	.sidebar-sidebar-content .content,
+	.sidebar-sidebar-content .content-sidebar-wrap,
+	.site-header .widget-area,
+	.title-area,
+	.wrap {
+		width: 100%;
+	}
+
+	.site-inner {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.archive-description,
+	.author-box,
+	.entry,
+	.entry-footer .entry-meta,
+	.sidebar .widget,
+	.site-header,
+	#comments,
+	#respond {
+		padding: 0;
+	}
+
+	.site-inner {
+		background: none;
+	}
+
+	.genesis-nav-menu li,
+	.site-header ul.genesis-nav-menu,
+	.site-header .search-form {
+		float: none;
+	}
+
+	.genesis-nav-menu,
+	.site-description,
+	.site-header hgroup,
+	.site-header .search-form,
+	.site-description,
+	.site-title {
+		text-align: center;
+	}
+
+	.genesis-nav-menu a,
+	.genesis-nav-menu > .first > a,
+	.genesis-nav-menu > .last > a {
+		padding: 20px 16px;
+		padding: 2rem 1.6rem;
+	}
+
+	.site-header .search-form {
+		margin: 16px auto ;
+		margin: 1.6rem auto;
+	}
+
+	.genesis-nav-menu li.right {
+		display: none;
+	}
+
+	.entry-footer .entry-meta {
+		margin: 0;
+		padding-top: 12px;
+		padding-top: 1.2rem;
+	}
+
+	.sidebar .widget.enews-widget {
+		padding: 40px;
+		padding: 4rem;
+	}
+
+	.site-footer {
+		padding: 24px 0;
+		padding: 2.4rem 0;
+	}
+
+	.footer-widgets,
+	#home-middle,
+	#home-featured,
+	#home-bottom  {
+		padding: 40px 5% 16px;
+	}
+
+	.footer-widgets-1,
+	.home-middle-1 {
+		margin: 0;
+	}
+
+}
+
+/* iPhones (portrait and landscape)
+--------------------------------------------- 
+
+@media only screen and (max-width: 767px) {
+
+	.five-sixths,
+	.four-fifths,
+	.four-sixths,
+	.one-fifth,
+	.one-fourth,
+	.one-half,
+	.one-sixth,
+	.one-third,
+	.three-fifths,
+	.three-fourths,
+	.three-sixths,
+	.two-fifths,
+	.two-fourths,
+	.two-sixths,
+	.two-thirds {
+		margin: 0;
+		width: 100%;
+	}
+
+}
